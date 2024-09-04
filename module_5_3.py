@@ -50,7 +50,7 @@ class House:
         if isinstance(value, int):
             self.number_of_floors = self.number_of_floors + value
             return self
-        else:
+         elif isinstance(value, str):
             self.number_of_floors = self.number_of_floors + int(value)
             return self
 
@@ -58,7 +58,7 @@ class House:
         if isinstance(value, int):
             self.number_of_floors = self.number_of_floors + value
             return self
-        else:
+         elif isinstance(value, str):
             self.number_of_floors = self.number_of_floors + int(value)
             return self
 
@@ -66,7 +66,7 @@ class House:
         if isinstance(value, int):
             self.number_of_floors = self.number_of_floors + value
             return self
-        else:
+         elif isinstance(value, str):
             self.number_of_floors = self.number_of_floors + int(value)
             return self
 
